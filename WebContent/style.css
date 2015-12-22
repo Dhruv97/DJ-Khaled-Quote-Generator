@@ -1,0 +1,139 @@
+body {
+	background: url(djkhaled.png) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-attachment: fixed;
+	color: white;
+	padding-top: 50px;
+	font-size: 18px;
+	font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	padding-top: 100px;
+	color: #fff;
+}
+
+.stroke--basic {
+	color: #fff;
+	text-stroke: 3px #000;
+}
+
+h1 {
+	font-size: 4em;
+	line-height: 70px;
+	margin-bottom: 40px;
+	font-weight: bold;
+	text-shadow: 3px 3px 0 #000, /* Simulated effect for Firefox and Opera
+       and nice enhancement for WebKit */
+   -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+a {
+	transition: all 0.2s linear 0s;
+}
+
+a:hover, a:focus, a:active {
+	text-decoration: none;
+	color: #a9f0ff;
+}
+
+.main-color {
+	color: #ff6666;
+	font-weight: bold;
+}
+
+#quote-box {
+	background-color: rgba(192, 192, 192, .4);
+	border-radius: 10px;
+	padding: 100px 40px;
+	position: relative;
+	margin-top: 20px;
+	text-shadow: 2px 2px 0 #000, /* Simulated effect for Firefox and Opera
+       and nice enhancement for WebKit */
+   -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+#quote-left, #quote-right {
+	color: #D6FF00;
+	font-size: 3em;
+	position: absolute;
+}
+
+#quote-left {
+	top: 20px;
+	left: 20px;
+}
+
+#quote-right {
+	bottom: 20px;
+	right: 20px;
+}
+
+#quote {
+	font-size: 1.5em;
+	text-align: center;
+}
+
+#author {
+	position: absolute;
+	font-size: 1.1em;
+	left: 50px;
+	bottom: 30px;
+}
+
+.btn {
+	border-radius: 10px;
+	color: #a9f0ff;
+	border: 2px solid white !important;
+	transition: background 0.8s, color 0.8s;
+	width: 200px;
+	background-color: #ff6666;
+	line-height: 30px;
+	margin-top: 30px;
+	margin-left: 10%;
+	transition: all 0.2s linear 0s;
+	text-shadow: 2px 2px 0 #000, /* Simulated effect for Firefox and Opera
+       and nice enhancement for WebKit */
+   -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+.btn:hover, .btn:active, .btn:focus {
+	color: #ff6666 !important;
+	background-color: #a9f0ff !important;
+	box-shadow: none;
+}
+
+img {
+	padding-left: 200px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 10px 0 0 0;
+	float: right;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+li {
+	display: inline-block;
+	margin: 0 0 0 1px;
+}
+
+#hidden {
+	display: none;
+}
+
+#counter {
+	margin-right: 50%;
+	padding-top: -200px;
+}
+
+#share {
+	margin-left: 35%;
+}
+
+#next-quote {
+	margin-left: -5%;
+}
